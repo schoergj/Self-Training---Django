@@ -1,0 +1,6 @@
+name: open-lab-private-test
+channels:
+  - defaults
+dependencies:
+  - python=3.12.5
+  - django=5.1.1
