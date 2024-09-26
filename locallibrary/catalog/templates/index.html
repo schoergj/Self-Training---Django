@@ -16,6 +16,10 @@
     <li><strong>Number of genres:</strong> {{num_genres}}</li>
     <li><strong>Number of books containing "schwarm":</strong> {{num_schwarm}}</li>
   </ul>
+
+  <p>
+    You have visited this page {{ num_visits }} time{{ num_visits|pluralize }}.
+  </p>
 {% endblock %}
 
 {% block title%}
