@@ -14,6 +14,6 @@ urlpatterns += [
 ]
 
 # aqdd admin page to see all borrowed books of users:
-# urlpatterns += [
-#     path('allbooks/', views.LoanedBooksByUserListView.as_view(), name='all-borrowed-books '),
-# ]
+urlpatterns += [
+    path('allbooks/', views.LoanedBooksStaffView.as_view(), name='all-borrowed-books'),
+]
